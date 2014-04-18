@@ -1,0 +1,164 @@
+/* {
+    border: black solid 1px;
+}*/
+
+@font-face {
+    font-family: Brandon-light;
+    src: url("../fonts/Brandon_light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-bld-it;
+    src: url("../fonts/Brandon_bld_it.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-bld;
+    src: url("../fonts/Brandon_bld.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-blk-it;
+    src: url("../fonts/Brandon_blk_it.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-blk;
+    src: url("../fonts/Brandon_blk.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-light-it;
+    src: url("../fonts/Brandon_light_it.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-med-it;
+    src: url("../fonts/Brandon_med_it.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-med;
+    src: url("../fonts/Brandon_med.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-reg-it;
+    src: url("../fonts/Brandon_reg_it.otf") format("opentype");
+
+}
+@font-face {
+    font-family: Brandon-reg;
+    src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-thin-it;
+    src: url("../fonts/Brandon_thin_it.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon-thin;
+    src: url("../fonts/Brandon_thin.otf") format("opentype");
+}
+
+body{
+    background: url("../images/currrva_2.jpg") no-repeat top right fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+.header h1{
+    font-family: "Brandon-light", sans-serif;
+    font-size: 70px;
+    color: white;
+    line-height: 55px;
+    color: #FFF;
+    margin-top: 30px;
+    text-shadow: 0 0 8px rgba(0,0,0,.6);
+    float: right;
+    margin-right: 60px;
+
+}
+
+.header{
+    height:70px;
+}
+
+.header ul{
+    float: right;
+    margin-left: 40px;
+}
+
+.header li{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.header li:hover {
+    opacity: .8;
+}
+
+
+.main{
+    height:600px;
+    margin-top:80px;
+}
+.main img{
+    float: right;
+    width: 363px;
+}
+.tagline{
+    margin-top:-60px;
+}
+
+.tagline h1{
+    margin-top:1.5em;
+    font-family: 'Brandon-light',sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFF;
+    text-shadow: 0 0 8px rgba(0,0,0,.6);
+}
+
+.tagline h2{
+    font-family: 'Brandon-reg',sans-serif;
+    font-size: 23px;
+    -webkit-font-smoothing: antialiased;
+    margin: 20px 0 30px;
+    color:#fff;
+    text-shadow: 0 0 8px rgba(0,0,0,.6);
+}
+
+#mc_embed_signup {
+    border-top: 1px dotted #999;
+}
+#mc_embed_signup .required  {
+    border-radius: 5px;
+    height: 57px;
+}
+
+#mc_embed_signup .button{
+    margin-top: 17px;
+    float: right;
+    border-radius: 5px;
+    font-family: 'Brandon-bld', sans-serif;
+    background-color: #fd7f6a;
+    letter-spacing: 2px;
+}
+
+
+#mc_embed_signup .button:hover {
+    opacity: .97;
+}
+
+#mce-EMAIL{
+    font-size: 19px;
+    font-family: 'Brandon-light', sans-serif;
+}
+
+
