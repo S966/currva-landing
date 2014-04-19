@@ -27,13 +27,13 @@ body{
 
 
 .header h1{
-    font-family: "Brandon-light", sans-serif;
-    font-size: 70px;
+    font-family: "Brandon-reg", sans-serif;
+    font-size: 80px;
     color: white;
     line-height: 55px;
-    color: #FFF;
+    color: #fd7f6a;
     margin-top: 30px;
-    text-shadow: 0 0 8px rgba(0,0,0,.6);
+    text-shadow: 5px 0 8px rgba(0,0,0,.6);
     float: right;
     margin-right: 60px;
 
